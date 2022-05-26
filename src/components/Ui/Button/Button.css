@@ -1,0 +1,15 @@
+.btn-style {
+  margin-top: 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  /* background-color: rgb(48, 47, 47); */
+  background-color: lightblue;
+  color: black;
+  font-size: 17px;
+  border: none;
+  transition: all 0.4s;
+}
+.btn-style:hover {
+  /* background-color: rgb(75, 73, 73); */
+  background-color: rgb(128, 188, 208);
+}

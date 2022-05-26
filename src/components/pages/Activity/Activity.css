@@ -1,0 +1,23 @@
+.profile-activity-section {
+  padding-top: 10px;
+  max-height: 80%;
+  height: 630px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+.profile-activity-section::-webkit-scrollbar {
+  background-color: gray;
+  width: 10px;
+}
+.profile-activity-section::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+.overflow {
+  overflow: scroll;
+  overflow-x: hidden;
+}

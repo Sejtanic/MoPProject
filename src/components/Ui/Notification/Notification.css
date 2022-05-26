@@ -1,0 +1,11 @@
+.notification-style {
+  font-weight: bold;
+  color: red;
+  padding: 0 7px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.notification-style p {
+  border: 1px solid red;
+}

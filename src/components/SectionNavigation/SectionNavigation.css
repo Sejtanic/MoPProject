@@ -1,0 +1,29 @@
+.post-section-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  letter-spacing: 3px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+.post-section-navigation-total {
+  display: flex;
+}
+.post-section-navigation-total p {
+  margin: 0 5px;
+  color: black;
+}
+.post-section-navigation a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s;
+}
+.post-section-navigation a:hover {
+  color: blue;
+  letter-spacing: 4px;
+}

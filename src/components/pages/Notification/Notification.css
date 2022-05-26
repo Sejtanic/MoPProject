@@ -1,0 +1,29 @@
+.profile-notification-section {
+  padding-top: 10px;
+  height: 600px;
+  max-height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+.profile-notification-section::-webkit-scrollbar {
+  background-color: gray;
+  width: 10px;
+}
+.profile-notification-section::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+.navigation-notification {
+  color: red;
+  cursor: pointer;
+  padding-left: 10px;
+  border-left: 1px solid red;
+}
+.overflow {
+  overflow: scroll;
+  overflow-x: hidden;
+}

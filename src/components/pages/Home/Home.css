@@ -1,0 +1,22 @@
+.home-page-style {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.post-section {
+  margin: 10px;
+  padding: 20px;
+}
+.navigation-section {
+  margin: 10px;
+  padding: 20px;
+}
+@media (max-width: 769px) {
+  .home-page-style {
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

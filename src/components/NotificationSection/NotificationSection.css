@@ -1,0 +1,18 @@
+.notification-section {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  /* background-color: rgb(33, 33, 33); */
+  background-color: var(--sections-color);
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.notification-content {
+  color: red;
+}

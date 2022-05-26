@@ -1,0 +1,99 @@
+.section-style {
+  color: black;
+  margin: 5px auto;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 10px;
+  font-weight: bolder;
+  width: 70%;
+  border: 1px solid white;
+}
+.section-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.section-content {
+  border-radius: 5px;
+  margin: 8px 0;
+  background-color: rgb(48, 47, 47, 0.1);
+  padding: 5px 10px;
+}
+.section-reaction {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.section-reaction p {
+  margin-right: 15px;
+}
+.section-reaction-heart {
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+.red {
+  color: red;
+}
+.white {
+  color: white;
+}
+.section-comment {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn {
+  margin-top: 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 17px;
+  border: none;
+  transition: all 0.4s;
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+}
+.btn:hover {
+  background-color: rgb(128, 188, 208);
+}
+.little {
+  margin: 0;
+  font-size: 12px;
+}
+.section-style textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  height: 50px;
+  border-radius: 3px;
+  resize: none;
+  border: 1px solid grey;
+}
+.section-single-comment {
+  display: flex;
+  align-items: flex-end;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+}
+.comment-username {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.comment-content {
+  background-color: white;
+  border-bottom: 1px solid rgb(190, 188, 188);
+  width: 100%;
+  padding: 5px;
+}
+.section-single-comment-info {
+  display: flex;
+}

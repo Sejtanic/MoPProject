@@ -1,0 +1,9 @@
+.error-page-style {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
