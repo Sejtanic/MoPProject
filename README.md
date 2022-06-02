@@ -18,6 +18,9 @@ Bug
 
 When changing the username the username will be changed but the change will not be reflected at first because I forgot to add the code to change username in localstorage so it will stay on old username.Many functionality will be lost because the current situation does not match the DB. My advice is to Log Out and then Log In again with changed username.
 
+When unlike it is possible to delete more likes because I mistakenly put the .pop() method instead of the .filter() method
+
+
 Get this project by cloning this repository on your device.
 
 When repository is cloned navigate to folder MoPproject .
